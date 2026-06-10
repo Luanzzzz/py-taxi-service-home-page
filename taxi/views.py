@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
-# Create your views here.
-from taxi.models import Driver, Manufacture, Car
+from taxi.models import Driver, Manufacturer, Car
+
 
 def index(request):
     num_drivers = Driver.objects.count()
